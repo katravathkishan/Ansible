@@ -1,20 +1,20 @@
--name: kishan
- email: kishan@gmail.com
- addresses: #list of addresses
- -type: perm
-  door no: 203
-  street: hight
-  city: r ville
-  type: current
-  door no: 213
+- name: kishan
+  email: kishan@gmail.com
+  addresses: #list of addresses
+ - type: perm
+   door no: 203
+   street: hight
+   city: r ville
+   type: current
+   door no: 213
 
--name: kishan
- email: kishan@gmail.com
- addresses: #list of addresses
- -type: perm
-  door no: 203
-  street: hight
-  city: r ville
-  type: current
-  door no: 213
+- name: kishan
+  email: kishan@gmail.com
+  addresses: #list of addresses
+ - type: perm
+   door no: 203
+   street: hight
+   city: r ville
+  - type: current
+    door no: 213
   
