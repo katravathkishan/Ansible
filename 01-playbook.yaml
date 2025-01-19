@@ -1,4 +1,5 @@
 - name: kishan
+  host: web
   Gmail: kishan@gmail.com
   addresses: #list of addresses
   - type: perm
