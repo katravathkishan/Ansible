@@ -6,5 +6,11 @@
     trainer: Shiva kumar
   tasks:
   - name: print the variables
+    vars:
+      course: Ansible #task level variables or local variables
+    ansible.builtin.debug:
+      msg: "course is {{course}}, durations of the course is {{duration}}, and the trainer is {{trainer}}"
+  tasks:
+  - name: print the variables
     ansible.builtin.debug:
       msg: "course is {{course}}, durations of the course is {{duration}}, and the trainer is {{trainer}}"
