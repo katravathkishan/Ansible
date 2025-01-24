@@ -1,6 +1,7 @@
 - name: variables
   hosts: local
   connection: local
+  private: false
   vars_prompt:
     - name: course
       prompt: enter the course name
