@@ -1,0 +1,7 @@
+- name: handling undefined variables
+  hosts: local
+  connection: local
+  tasks:
+  - name: H.U.variables
+    ansible.builtin.debug:
+      msg: "hello {{ person | default('ramesh') }}"
