@@ -18,3 +18,33 @@
         trainer: shiva
     ansible.builtin.debug:
       msg: " course info {{ course | dict2items }}"
+  - name: convert list to map
+    vars:
+      course:
+      - {'key': 'name', 'value': 'devops'}
+      - {'key': 'duration', 'value': '120'}
+      - {'key': 'trainer', 'value': 'shiva'}
+    ansible.builtin.debug:
+      msg: "converted list to map are {{ course | items2dict  }}"
+
+  - name: convert upper to lower case
+    vars:
+      name: "KISHAN"
+    ansible.buitin.debug:
+      msg: "the conversion is : {{ name | lower}}"
+  - name: convert lower to upper case
+    vars:
+      name: "kishan"
+    ansible.buitin.debug:
+      msg: "the conversion is : {{ name | upper}}"
+
+  - name: min to max
+    var:
+      numbers: [8,4,93,736,]
+    ansible.builtin.debug:
+      msg: "{{ numbers | max }}"
+  - name: max to min
+    var:
+      numbers: [8,4,93,736,]
+    ansible.builtin.debug:
+      msg: "{{ numbers | min }}"
