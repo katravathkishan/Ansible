@@ -1,6 +1,6 @@
 - name: variables
   hosts: web
-  connection: web
+  # connection: web
   tasks:
   - name: print the variables
     ansible.builtin.debug:
