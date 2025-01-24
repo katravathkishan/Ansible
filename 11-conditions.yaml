@@ -1,7 +1,7 @@
 - name: conditions
   hosts: local
   vars:
-    number=15
+    number: 15
   tasks:
   - name: check conditions
     ansible.builtin.debug:
