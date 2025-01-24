@@ -4,10 +4,14 @@
   private: false
   vars_prompt:
     - name: course
+      private: false
       prompt: enter the course name
+
     - name: duration
+      private: false
       prompt: enter duration of the course
     - name: trainer
+      private: false
       prompt: enter the name of the trainer
   tasks:
   - name: print the variables
