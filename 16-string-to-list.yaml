@@ -6,9 +6,8 @@
     ansible.builtin.debug:
       msg: "hello {{ person | default('ramesh') }}"
   - name: convert string to list
-    ansible.builtin.debug:
     vars:
        fruites: "banana , apple , grapes"
-    #ansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "fruites are conveted into list {{ fruites | split(',') }}"
     
