@@ -1,4 +1,4 @@
--  name: conditions
+- name: conditions
   hosts: local
   vars:
     number=15
