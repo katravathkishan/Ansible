@@ -6,7 +6,7 @@
       prompt: enter the course name
     - name: duration
       prompt: enter duration of the course
-    -name: trainer
+    - name: trainer
       prompt: enter the name of the trainer
   tasks:
   - name: print the variables
