@@ -17,5 +17,5 @@
       containerization: docker
   tasks:
   - name: print the information
-    ansible.builtun.debug:
+    ansible.builtin.debug:
       msg: "hello I learning {{course}}", duration {{duration}}, and trainer is {{trainer}}, topics are {{topics}}, and tools used are {{tools}} and it is live {{live}}
