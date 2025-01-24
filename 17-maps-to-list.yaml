@@ -12,8 +12,9 @@
       msg: "fruites are conveted into list {{ fruites | split(',') }}"
   - name: convert maps to list
     vars:
-      course: devops
-      duration: 120
-      trainer: shiva
+      course:
+        name: devops
+        duration: 120
+        trainer: shiva
     ansible.builtin.debug:
       msg: " course info {{ course | dict2items }}"
