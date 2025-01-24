@@ -5,5 +5,5 @@
   tasks:
   - name: check conditions
     ansible.builtin.debug:
-      msg " check the given number {{number}} is greater than 10 or not"
+      msg: " check the given number {{number}} is greater than 10 or not"
     when: number > 10
