@@ -9,5 +9,5 @@
     vars:
       fruites: "banana , apple , grapes"
     ansible.builtin.debug:
-      msg: "fruites are conveted into list {{ person | splite( ',' ) }}"
+      msg: "fruites are conveted into list {{ person | split( ',' ) }}"
     
