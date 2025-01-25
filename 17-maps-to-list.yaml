@@ -29,12 +29,12 @@
   - name: convert upper to lower case
     vars:
       name: "KISHAN"
-    ansible.buitin.debug:
+    ansible.builtin.debug:
       msg: "the conversion is : {{ name | lower }}"
   - name: convert lower to upper case
     vars:
       name: "kishan"
-    ansible.buitin.debug:
+    ansible.builtin.debug:
       msg: "the conversion is : {{ name | upper }}"
 
   - name: min to max
