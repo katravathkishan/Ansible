@@ -38,7 +38,7 @@
       msg: "the conversion is : {{ name | upper }}"
 
   - name: min to max
-    var:
+    vars:
       numbers: [8,4,93,736,]
     ansible.builtin.debug:
       msg: "{{ numbers | max }}"
