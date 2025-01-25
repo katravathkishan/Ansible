@@ -26,7 +26,6 @@
       - {'key': 'trainer', 'value': 'shiva'}
     ansible.builtin.debug:
       msg: "converted list to map are {{ course | items2dict  }}"
-
   - name: convert upper to lower case
     vars:
       name: "KISHAN"
