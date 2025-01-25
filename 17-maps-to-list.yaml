@@ -43,7 +43,7 @@
     ansible.builtin.debug:
       msg: "{{ numbers | max }}"
   - name: max to min
-    var:
+    vars:
       numbers: [8,4,93,736,]
     ansible.builtin.debug:
       msg: "{{ numbers | min }}"
